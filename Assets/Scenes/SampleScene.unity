@@ -138,6 +138,35 @@ GameObject:
 --- !u!4 &17505620
 Transform:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17505619}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1107051503}
+  - {fileID: 1422853544}
+  - {fileID: 1812790537}
+  - {fileID: 822794558}
+  - {fileID: 1577311610}
+  - {fileID: 943845949}
+  - {fileID: 1629475798}
+  - {fileID: 140978717}
+  - {fileID: 1110867609}
+  - {fileID: 1372660976}
+  - {fileID: 1886136346}
+  - {fileID: 650497810}
+  - {fileID: 67365193}
+  - {fileID: 26009296}
+  - {fileID: 1593548953}
+  - {fileID: 227911678}
+  - {fileID: 1742899630}
+  - {fileID: 1416846206}
+  - {fileID: 1414965881}
   - {fileID: 381751553}
   - {fileID: 1406322173}
   - {fileID: 1880661004}
