@@ -5,12 +5,15 @@ using UnityEngine;
 public class BalloonTarget : MonoBehaviour
 {
     public Vector3 moveDirection = Vector3.right;
-    public float moveSpeed = 1f;
+    private float moveSpeed;
     public float ascentSpeed = 5f;
     private bool jointBroken = false;
     public float moveDistance = 10f;
     private Vector3 initialPosition;
-
+    private void Start()
+    {
+        moveSpeed = Random.Range(0.25f, 1.25f);
+    }
     void Update()
     {
         if (!jointBroken)
