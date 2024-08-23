@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class CannonShooting : MonoBehaviour
 {
-    public Slider rotationYSlider;  // Slider para rotar el cañón en Y (horizontal)
-    public Slider rotationXSlider;  // Slider para rotar el cañón en X (vertical)
-    public Slider powerSlider;      // Slider para controlar la potencia del disparo
+    public Slider rotationYSlider;  
+    public Slider rotationXSlider; 
+    public Slider powerSlider;     
 
     [SerializeField] Rigidbody projectilePrefab;
     [SerializeField] Transform firePoint;
@@ -31,8 +31,8 @@ public class CannonShooting : MonoBehaviour
     }
     public void Fire()
     {
-        // Instanciar el proyectil y aplicar fuerza
         Rigidbody projectileInstance = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
         projectileInstance.AddForce(firePoint.forward * powerSlider.value, ForceMode.Impulse);
+        Destroy(projectileInstance.gameObject, 5f);
     }
 }
