@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1140295560155780057}
   m_Layer: 0
   m_Name: String
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 1354352029066041247}
   m_Layer: 0
   m_Name: Balloon
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 2315707621219464433}
   m_Layer: 0
   m_Name: Target
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 5808812305064617804}
   m_Layer: 0
   m_Name: Balloon Target
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -448,6 +448,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5808812305064617804}
     m_Modifications:
+    - target: {fileID: 2810165206356736434, guid: e165c19966564c74aa7df08e4e431bc5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
+      objectReference: {fileID: 0}
     - target: {fileID: 5602883459978864107, guid: e165c19966564c74aa7df08e4e431bc5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -518,6 +523,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon
       objectReference: {fileID: 0}
+    - target: {fileID: 8582096822857955485, guid: e165c19966564c74aa7df08e4e431bc5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Target
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -584,6 +594,11 @@ PrefabInstance:
     - target: {fileID: 6254596138691624071, guid: bc1b95a26c72afc4188985b256adfc48,
         type: 3}
       propertyPath: m_Name
+      value: Target
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254596138691624071, guid: bc1b95a26c72afc4188985b256adfc48,
+        type: 3}
+      propertyPath: m_TagString
       value: Target
       objectReference: {fileID: 0}
     m_RemovedComponents: []
